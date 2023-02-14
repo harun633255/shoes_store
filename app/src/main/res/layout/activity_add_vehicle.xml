@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Admin.AddVehicle">
+
+
+    <ImageView
+        android:id="@+id/carImageView"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:src="@mipmap/ic_launcher"/>
+    <TextView
+        android:id="@+id/carCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="car code"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/grey"/>
+    <EditText
+        android:id="@+id/carType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter car type"
+        android:textColor="@color/black"
+        android:textColorHint="@color/grey"/>
+    <EditText
+        android:id="@+id/carCapacity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter capacity"
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:textColorHint="@color/grey"/>
+    <Button
+        android:id="@+id/addVehicle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Vehicle"/>
+
+
+</LinearLayout>
